@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 
 
+
 @csrf_exempt
 @api_view(['GET', 'POST'])
 def customer_list(request):
